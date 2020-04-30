@@ -28,3 +28,10 @@ end
     age: rand(18..28)
   )
 end
+
+20.times do
+  gossip = Gossip.create!(
+    title: Faker::Lorem.sentence(word_count: 3),
+    content: Faker::Lorem.sentence(word_count: 10),
+  )
+end
