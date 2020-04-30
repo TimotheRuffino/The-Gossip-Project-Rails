@@ -2,4 +2,4 @@
 
 * Ruby version : 2.5.1 
 
-* Non-terminé
+* Projet non-terminé
